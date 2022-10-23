@@ -1,48 +1,54 @@
-# Getting Started with Create React App
+<p align="center">
+  <img src="https://lh3.googleusercontent.com/p/AF1QipOySSdkqrqi0yUfSDgfHbbcTZ8e1l1oiq3meNS6=w960-h960-n-o-v1" alt="Ojage-logo" width="240" />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <p align="center">A scheduler, manager for your exams (Public or Private)</p>
+</p>
 
-## Available Scripts
+<p align="center">
+  <a href="https://heroku.com/deploy?template=https://github.com/chatwoot/chatwoot/tree/master" alt="Deploy to Heroku">
+     <img width="150" alt="Deploy" src="https://www.herokucdn.com/deploy/button.svg"/>
+  </a>
+  <a href="https://marketplace.digitalocean.com/apps/chatwoot?refcode=f2238426a2a8" alt="Deploy to DigitalOcean">
+     <img width="200" alt="Deploy to DO" src="https://www.deploytodo.com/do-btn-blue.svg"/>
+  </a>
+</p>
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Ojage is a scheduler and manager of your Exams. Ojage lets you select the kind of public exam you want to go in for and gives you updates and advice until you the exam date.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Ojage supports the following conversation channels:
 
-### `npm run build`
+ - **Website**: Talk to your customers using our live chat widget and make use of our SDK to identify a user and provide contextual support.
+ - **Facebook**: Connect your Facebook pages and start replying to the direct messages to your page.
+ - **Instagram**: Connect your Instagram profile and start replying to the direct messages.
+ - **Twitter**: Connect your Twitter profiles and reply to direct messages or the tweets where you are mentioned.
+ - **Telegram**: Connect your Telegram bot and reply to your customers right from a single dashboard.
+ - **WhatsApp**: Connect your WhatsApp business account and manage the conversation in Chatwoot.
+ - **Line**: Connect your Line account and manage the conversations in Chatwoot.
+ - **SMS**: Connect your Twilio SMS account and reply to the SMS queries in Chatwoot.
+ - **API Channel**: Build custom communication channels using our API channel.
+ - **Email**: Forward all your email queries to Chatwoot and view it in our integrated dashboard.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+And more.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Other features include:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **CRM**: Save all your customer information right inside Chatwoot, use contact notes to log emails, phone calls, or meeting notes.
+- **Custom Attributes**: Define custom attribute attributes to store information about a contact or a conversation and extend the product to match your workflow.
+- **Shared multi-brand inboxes**: Manage multiple brands or pages using a shared inbox.
+- **Private notes**: Use @mentions and private notes to communicate internally about a conversation.
+- **Canned responses (Saved replies)**: Improve the response rate by adding saved replies for frequently asked questions.
+- **Conversation Labels**: Use conversation labels to create custom workflows.
+- **Auto assignment**: Chatwoot intelligently assigns a ticket to the agents who have access to the inbox depending on their availability and load.
+- **Conversation continuity**: If the user has provided an email address through the chat widget, Chatwoot will send an email to the customer under the agent name so that the user can continue the conversation over the email.
+- **Multi-lingual support**: Chatwoot supports 10+ languages.
+- **Powerful API & Webhooks**: Extend the capability of the software using Chatwoot’s webhooks and APIs.
+- **Integrations**: Chatwoot natively integrates with Slack right now. Manage your conversations in Slack without logging into the dashboard.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# ojage
-# ojage
+*Ojage* &copy; 2022-2025, Ojage Inc - Released under the MIT License.
