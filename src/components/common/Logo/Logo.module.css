@@ -1,10 +1,8 @@
-.logoBox {
-    width: 110px;
-    height: auto;
-    object-position: center;
-}
-
-.logoBox > img {
+.logo{
     height: 100%;
     width: 100%;
+}
+
+.logo:hover{
+    cursor: pointer;
 }

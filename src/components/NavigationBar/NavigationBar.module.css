@@ -1,24 +1,38 @@
 .NavigationBarBox {
-    overflow-y: hidden;
+    overflow: hidden;
     align-items: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     width: 100%;
     height: 70px;
+    padding-top: 1rem;
 }
 
 .NavLogo{
+    width: 170px;
+    max-height: 90px;
     margin-top: calc(50px - 25px);
+    margin-right: 35%;
 }
 .NavItems{
-    margin-right: 30%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.NavItems > div {
+    width: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+}
+
+.NavItems > div:hover {
+    cursor: pointer;
+}
 .NavItems a{
-    padding: 10px;
+    
 }
 
 a{

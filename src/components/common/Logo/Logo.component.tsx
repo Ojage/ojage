@@ -1,6 +1,7 @@
+import { Link } from 'react-router-dom';
 import React, { useEffect } from 'react';
 // Import the style sheet
-import style from './Logo.module.css';
+import styles from './Logo.module.css';
 // Importing the three main Logo variations
 import cover from '../../../assets/Logo/cover.png';
 import Default from '../../../assets/Logo/Default.png';
@@ -11,9 +12,11 @@ import profile from '../../../assets/Logo/profile.png';
 
 const Logo: React.FunctionComponent<{}> = props => {
 
-    return (<div className={style.logoBox}>
-        <img src={DefaultSide} alt="Ojage_Logo" />
-    </div>)
+    return (
+        <Link to='/'>
+            <img className={styles.logo} src={DefaultSide} alt="Ojage_Logo" />
+        </Link>
+    )
 }
 
 export default Logo;
