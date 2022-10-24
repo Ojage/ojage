@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import React, { useEffect } from 'react';
+import React from 'react';
 // Import the style sheet
 import styles from './Logo.module.css';
 // Importing the three main Logo variations
