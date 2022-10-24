@@ -1,0 +1,10 @@
+.logoBox {
+    width: 110px;
+    height: auto;
+    object-position: center;
+}
+
+.logoBox > img {
+    height: 100%;
+    width: 100%;
+}

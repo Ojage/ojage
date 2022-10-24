@@ -1,0 +1,27 @@
+.NavigationBarBox {
+    overflow-y: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+}
+
+.NavLogo{
+    margin-top: calc(50px - 25px);
+}
+.NavItems{
+    margin-right: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavItems a{
+    padding: 10px;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
