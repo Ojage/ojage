@@ -3,10 +3,10 @@ import React, { useEffect } from 'react';
 // Import the style sheet
 import styles from './Logo.module.css';
 // Importing the three main Logo variations
-import cover from '../../../assets/Logo/cover.png';
-import Default from '../../../assets/Logo/Default.png';
+// import cover from '../../../assets/Logo/cover.png';
+// import Default from '../../../assets/Logo/Default.png';
 import DefaultSide from '../../../assets/Logo/DefaultSide.png';
-import profile from '../../../assets/Logo/profile.png';
+// import profile from '../../../assets/Logo/profile.png';
 // Import Vector Variations
 
 
